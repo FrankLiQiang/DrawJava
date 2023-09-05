@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Draw</string>
+    <string name="dog_help">开始绘制，点击任意点，停止绘画\n
+        上部左右滑动：改变样式\n
+        中部左右滑动：改变大小\n
+        下部左右滑动：改变角度</string>
+    <string name="snow_help">原地点击：改变颜色\n
+        左右滑动：开始绘画 和 停止绘画 切换\n
+        向上滑动：雪花变大\n
+        向下滑动：雪花变小</string>
+    <string name="rings_help">从左到右：减慢速度\n
+        从右到左：加快速度\n
+        向上滑动：安装九连环\n
+        向下滑动：解开九连环</string>
+</resources>

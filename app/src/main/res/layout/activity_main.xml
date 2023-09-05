@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.frank.draw.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:background="#000000"
+        android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#000000"
+        android:orientation="vertical">
+
+        <com.frank.draw.DogLayout
+            android:id="@+id/dog"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000000"
+            android:scaleType="fitXY">
+        </com.frank.draw.DogLayout>
+        <ImageView
+            android:id="@+id/dog_help"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/ic_launcher">
+        </ImageView>
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:orientation="vertical">
+
+            <com.frank.draw.SnowLayout
+                android:id="@+id/snow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                android:scaleType="fitXY">
+            </com.frank.draw.SnowLayout>
+            <ImageView
+                android:id="@+id/snow_help"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@mipmap/snow">
+            </ImageView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:orientation="vertical">
+
+            <com.frank.draw.RingsLayout
+                android:id="@+id/rings"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                android:scaleType="fitXY">
+            </com.frank.draw.RingsLayout>
+            <ImageView
+                android:id="@+id/rings_help"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@mipmap/rings">
+            </ImageView>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
